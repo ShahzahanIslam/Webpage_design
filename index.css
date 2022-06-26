@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url("/Projects/project_4/laptop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.main{
+    width: 800px;
+    height: 615px;
+    margin: auto;
+    background:url("/Projects/project_4/nature.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+.header{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 250px;
+    text-align: center;
+    background-color: rgba(36, 29, 29, 0.653);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.name{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    display: inline-flex;
+}
+#first_name{
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#last_name{
+    position: relative;
+    left: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.first_label{
+    position: relative;
+    left:-170px;
+    top: 49px;
+    color: rgb(35, 35, 83);
+    font-size: 15px;
+    font-weight: 700
+}
+.second_label{
+    position: relative;
+    left: -190px;
+    top: 50px;
+    color: rgb(35, 35, 83);
+    font-size: 15px;
+    font-weight: 700
+}
+.email{
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 20px;
+    display: inline-flex;
+}
+.email input{
+    width: 550px;
+    position: relative;
+    left: 28px; 
+    font-size: 20px;
+    padding: 10px;
+}
+.phone{
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 20px;
+    display: inline-flex;
+}
+.phone input{
+    width: 550px;
+    position: relative;
+    left: 28px; 
+    font-size: 20px;
+    padding: 10px;
+}
+.select{
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 20px;
+    display: inline-flex;
+}
+.select select{
+    width: 570px;
+    position: relative;
+    left: 15px; 
+    font-size: 20px;
+    padding: 10px;
+}
+.radio{
+    margin-top: 40px;
+    margin-left: 45px;
+    font-size: 20px;
+    display: inline-block;
+}
+.radio input{
+    font-size: 40px;
+    padding: 10px;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: 0px;
+}
+.button button{
+    margin-left: 300px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: blueviolet;
+    color: black;
+    font-weight: 700;
+}
+.button button:hover{
+    color: red;
+    background-color: darkgreen;
+    cursor: pointer;
+}
