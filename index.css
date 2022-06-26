@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background: url("/Projects/project_4/laptop.jpg");
+    background: url("laptop.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body{
     width: 800px;
     height: 615px;
     margin: auto;
-    background:url("/Projects/project_4/nature.jpg");
+    background:url("nature.jpg");
     background-position: center;
     background-size: cover;
     padding: 10px;
